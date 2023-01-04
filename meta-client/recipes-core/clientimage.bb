@@ -29,3 +29,4 @@ IMAGE_INSTALL += " qtserialport \
  clientx \
  ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'qtwayland', '', d)} "
 
+
